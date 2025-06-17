@@ -1,0 +1,14 @@
+fastapi==0.111.0
+ # pretty self explanatory , backend is all coded in fastapi 
+uvicorn[standard]==0.30.1
+ # the server that gets ur app runnung with an automatic swagger ui documnetation accessible via url 
+psycopg2-binary==2.9.9 
+# for db connection with postgreSQL
+SQLAlchemy==2.0.30 
+#the orm we will be using to convert classes in code to tables and python code to sql queries
+python-dotenv==1.0.1
+#for getting environment variables into the code 
+pydantic-settings==2.3.4
+#pydantic is best for making sure the app and objects behave exactly like we want it to , the request and responses follow the defined format 
+passlib[bcrypt]==1.7.4 
+#encrypting user password
