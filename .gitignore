@@ -1,0 +1,30 @@
+# pyhton local cache files, no need to commit and version control them
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-arg.txt
+.tox/
+.coverage
+.pytest_cache/
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# virtual environmnets also not need to be commited , its just local 
+.env
+.env.*
+*.env
+
+# standard for docker 
+*.dockerignore
+docker-compose*.override.yml # If you use override files for local dev
+
+# VS code to ignore workspace settings)
+.vscode/                
+
