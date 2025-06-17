@@ -3,7 +3,9 @@
 # Project Description 
 This project aims to give hands on practise on coding via FastAPI , maintaining standard file structure , good code practices like fucntion descripors and pep8 , the app is also containerized via Docler compose with 3 services 
 1- FastAPI Web Service 
+
 2- PostgreSQL DB Service
+
 3- MongoDB Service
 
 # Tech Stack Used
